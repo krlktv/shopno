@@ -1,0 +1,30 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;700&family=Raleway&display=swap');
+
+@import 'base/variables';
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/titles';
+@import 'blocks/about';
+@import 'blocks/works';
+@import 'blocks/popup';
+@import 'blocks/team';
+@import 'blocks/contacts';
+@import 'blocks/form';
+@import 'blocks/footer';
+@import 'blocks/media';

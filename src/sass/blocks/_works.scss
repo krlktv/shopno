@@ -1,0 +1,23 @@
+.works {
+	min-height: 1165px;
+	padding-top: 130px;
+
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 120px;
+		justify-content: space-between;
+		row-gap: 13px;
+
+		img {
+			width: 370px;
+			cursor: pointer;
+			transition: .3s;
+
+			&:hover {
+				box-shadow: 0 0 10px #76f4ea;
+				transform: scale(1.01);
+			}
+		}
+	}
+}

@@ -1,0 +1,60 @@
+.promo {
+	font-family: 'Montserrat', sans-serif;
+	height: 806px;
+	background-color: #eff0f2;
+
+	&__title {
+		margin-top: 200px;
+		margin-bottom: 137px;
+		text-align: center;
+		font-size: 45px;
+		line-height: 59px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		text-shadow: 4px 8px 10px $shadow-color;
+		color: #505050;
+
+		span {
+			padding: 0 15px;
+			background-color: #76f4ea;
+		}
+	}
+
+	&__link {
+		display: block;
+		margin: 0 auto;
+		width: 232px;
+		height: 53px;
+		position: relative;
+		font-size: 18px;
+		line-height: 50px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: #000;
+		border: 2px solid #000;
+		border-radius: 2px;
+		text-align: center;
+		transition: .3s;
+
+		&:hover {
+			letter-spacing: 3px;
+			text-decoration: none;
+			color: #505050;
+			background-color: #76f4ea;
+			border: 2px solid rgba(0, 0, 0, .5);
+			text-shadow: 4px 8px 10px $shadow-color;
+			box-shadow: 4px 8px 10px $shadow-color;
+		}
+	}
+
+	&__img {
+		display: flex;
+		justify-content: flex-end;
+		width: 1050px;
+
+		img {
+			width: 83px;
+		}
+	}
+}

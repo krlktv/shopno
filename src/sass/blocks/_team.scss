@@ -1,0 +1,98 @@
+.team {
+	min-height: 1360px;
+	padding-top: 100px;
+	background-color: #f9fbfb;
+
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 120px;
+		justify-items: center;
+		justify-content: space-between;
+		row-gap: 14px;
+	}
+
+	&__member {
+		position: relative;
+		height: 440px;
+		width: 370px;
+
+		&:hover {
+			.team__member-info {
+				opacity: 1;
+			}
+		}
+
+		&-info {
+			opacity: 0;
+			position: absolute;
+			bottom: 15px;
+			left: 18px;
+			width: 335px;
+			height: 241px;
+			padding: 40px 43px 42px 39px;
+			background-color: #71f6ec;
+			transition: .3s;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: -19px;
+				left: 11px;
+				width: 42px;
+				height: 37px;
+				background-image: url('../img/triangle.svg');
+			}
+		}
+
+		&-title {
+			font-family: 'Merriweather', serif;
+			margin-bottom: 13px;
+		}
+
+		&-name {
+			font-size: 20px;
+			line-height: 24px;
+			font-weight: 700;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+		}
+
+		&-position {
+			font-size: 15px;
+			font-style: italic;
+			line-height: 24px;
+			letter-spacing: 0.45px;
+			color: rgba(#767070, .95);
+		}
+
+		&-descr {
+			font-family: 'Raleway', sans-serif;
+			font-size: 16px;
+			line-height: 24px;
+			letter-spacing: 0.1px;
+			margin-bottom: 30px;
+		}
+
+		&-socials {
+			display: flex;
+			align-items: start;
+
+			li {
+				list-style-type: none;
+				margin-right: 14px;
+
+				i {
+					color: rgba(0, 0, 0, 0.7);
+					font-size: 13.5px;
+					transition: .3s;
+
+					&:hover {
+						transform: scale(1.7);
+						text-shadow: 0px -15px 1.5px #fff;
+					}
+				}
+			}
+		}
+	}
+}

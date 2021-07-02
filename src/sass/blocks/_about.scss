@@ -1,0 +1,38 @@
+.about {
+	min-height: 985px;
+	background-color: #f8fafa;
+	padding-top: 130px;
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-around;
+		padding-top: 130px;
+	}
+
+	&__img {
+		width: 392px;
+	}
+
+	&__descr {
+		width: 474px;
+		color: rgba(0, 0, 0, .74);
+
+		&-title {
+			margin-bottom: 17px;
+			font-family: 'Merriweather', serif;
+			font-size: 20px;
+			line-height: 28px;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 1.5px;
+		}
+
+		&-text {
+			margin-bottom: 30px;
+			font-family: 'Raleway', sans-serif;
+			font-size: 16px;
+			line-height: 28px;
+			text-align: justify;
+		}
+	}
+}
