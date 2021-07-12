@@ -4,11 +4,10 @@
 	background-color: #f9fbfb;
 
 	&__content {
-		display: flex;
+		@include flex_space_between;
 		flex-wrap: wrap;
 		margin-top: 120px;
 		justify-items: center;
-		justify-content: space-between;
 		row-gap: 14px;
 	}
 

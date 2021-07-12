@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;700&family=Raleway&display=swap');
 
 @import 'base/variables';
+@import 'base/mixins';
 
 html {
 	scroll-behavior: smooth;

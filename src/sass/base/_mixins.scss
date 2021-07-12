@@ -1,0 +1,14 @@
+@mixin flex_space_around {
+	display: flex;
+	justify-content: space-around;
+}
+
+@mixin flex_space_center {
+	display: flex;
+	justify-content: center;
+}
+
+@mixin flex_space_between {
+	display: flex;
+	justify-content: space-between;
+}

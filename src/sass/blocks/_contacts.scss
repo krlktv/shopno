@@ -12,8 +12,7 @@
 	}
 
 	&__content {
-		display: flex;
-		justify-content: space-between;
+		@include flex_space_between;
 	}
 
 	&__form {

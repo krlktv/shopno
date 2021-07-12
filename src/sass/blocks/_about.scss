@@ -4,8 +4,7 @@
 	padding-top: 130px;
 
 	&__content {
-		display: flex;
-		justify-content: space-around;
+		@include flex_space_around;
 		padding-top: 130px;
 	}
 
