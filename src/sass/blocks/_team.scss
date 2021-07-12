@@ -1,7 +1,7 @@
 .team {
 	min-height: 1360px;
 	padding-top: 100px;
-	background-color: #f9fbfb;
+	background-color: $bg-block-color;
 
 	&__content {
 		@include flex_space_between;

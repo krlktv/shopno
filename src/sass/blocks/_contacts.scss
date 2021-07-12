@@ -3,7 +3,7 @@
 	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
 	background: url("../img/snow.png") no-repeat 50%/cover;
-	background-color: #f9fbfb;
+	background-color: $bg-block-color;
 	padding-top: 120px;
 
 	&__hidden {
@@ -19,7 +19,7 @@
 		padding: 41px 33px 0px 31px;
 		width: 614px;
 		min-height: 460px;
-		background-color: rgba(2, 22, 35, 0.7);
+		background-color: $bg-contacts-color;
 		box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.11);
 	}
 
@@ -28,22 +28,22 @@
 		height: 460px;
 		padding-top: 29px;
 		padding-left: 22px;
-		background-color: rgba(2, 22, 35, 0.7);
+		background-color: $bg-contacts-color;
 		box-shadow: 0px 0px 3px 0px rgba(21, 21, 21, 0.15);
 	}
 
 	&__address {
 		padding-left: 8px;
 		margin-bottom: 21px;
-		color: rgba(255, 255, 255, .6);
+		color: $text-gray-color;
 		line-height: 24px;
 
 		a {
-			color: rgba(255, 255, 255, .6);
+			color: $text-gray-color;
 			transition: .3s;
 
 			&:hover {
-				color: #fff;
+				color: $text-light-color;
 				text-decoration: none;
 				letter-spacing: 0.5px;
 				text-shadow: 0 0 5px #76f4ea;
