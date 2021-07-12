@@ -12,18 +12,18 @@
 	background-color: rgba(0, 0, 0, .5);
 	cursor: zoom-out;
 
+	&_hide {
+		display: none;
+	}
+
+	&_show {
+		display: flex;
+	}
+
 	&__content {
 		img {
 			height: 80vh;
 			cursor: default;
 		}
 	}
-}
-
-.show {
-	display: flex;
-}
-
-.hide {
-	display: none;
 }

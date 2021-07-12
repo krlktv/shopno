@@ -15,14 +15,14 @@ window.addEventListener('DOMContentLoaded', () => {
 	});
 
 	function closePopup() {
-		popup.classList.add('hide');
-		popup.classList.remove('show');
+		popup.classList.add('popup_hide');
+		popup.classList.remove('popup_show');
 		document.body.style.overflow = '';
 	}
 
 	function openPopup() {
-		popup.classList.add('show');
-		popup.classList.remove('hide');
+		popup.classList.add('popup_show');
+		popup.classList.remove('popup_hide');
 		document.body.style.overflow = 'hidden';
 	}
 
@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	});
 
 	document.addEventListener('keydown', (e) => {
-		if (e.code === "Escape" && popup.classList.contains('show')) {
+		if (e.code === "Escape" && popup.classList.contains('popup_show')) {
 			closePopup();
 		}
 	});
