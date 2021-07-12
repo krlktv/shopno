@@ -17,6 +17,26 @@
 		height: 440px;
 		width: 370px;
 
+		&_img1 {
+			background-image: url(../img/team/person1.jpg);
+		}
+
+		&_img2 {
+			background-image: url(../img/team/person2.jpg);
+		}
+
+		&_img3 {
+			background-image: url(../img/team/person3.jpg);
+		}
+
+		&_img4 {
+			background-image: url(../img/team/person4.jpg);
+		}
+
+		&_img5 {
+			background-image: url(../img/team/person5.jpg);
+		}
+
 		&:hover {
 			.team__member-info {
 				opacity: 1;
