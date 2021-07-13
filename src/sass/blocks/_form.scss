@@ -1,0 +1,50 @@
+.form {
+	display: flex;
+	flex-direction: column;
+
+	&__item {
+		padding: 0 4px 15px;
+		margin-bottom: 22px;
+		background-color: transparent;
+		color: $text-gray-color;
+		border: none;
+		border-bottom: 1px solid rgba(255, 255, 255, .1);
+		outline: none;
+
+		&::placeholder {
+			color: rgba(255, 255, 255, .7);
+		}
+	}
+
+	&__textarea {
+		resize: none;
+		height: 108px;
+	}
+
+	&__btn {
+		margin-top: 17px;
+		width: 244px;
+		height: 53px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 18px;
+		line-height: 28px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		background-color: #6eeee4;
+		color: rgba(0, 0, 0, .7);
+		border: none;
+		border-radius: 2px;
+		transition: .3s;
+
+		&:hover {
+			letter-spacing: 3px;
+			text-shadow: 4px 8px 10px $shadow-color;
+			box-shadow: 0 0 5px #76f4ea;
+		}
+
+		&:active {
+			outline: none;
+			transform: scale(0.95);
+		}
+	}
+}

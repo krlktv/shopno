@@ -1,0 +1,63 @@
+.contacts {
+	min-height: 705px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	background: url("../img/snow.png") no-repeat 50%/cover;
+	background-color: $bg-block-color;
+	padding-top: 120px;
+
+	&__hidden {
+		position: absolute;
+		left: -100px;
+	}
+
+	&__content {
+		@include flex_space_between;
+	}
+
+	&__form {
+		padding: 41px 33px 0px 31px;
+		width: 614px;
+		min-height: 460px;
+		background-color: $bg-contacts-color;
+		box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.11);
+	}
+
+	&__info {
+		width: 500px;
+		height: 460px;
+		padding-top: 29px;
+		padding-left: 22px;
+		background-color: $bg-contacts-color;
+		box-shadow: 0px 0px 3px 0px rgba(21, 21, 21, 0.15);
+	}
+
+	&__address {
+		padding-left: 8px;
+		margin-bottom: 21px;
+		color: $text-gray-color;
+		line-height: 24px;
+
+		a {
+			color: $text-gray-color;
+			transition: .3s;
+
+			&:hover {
+				color: $text-light-color;
+				text-decoration: none;
+				letter-spacing: 0.5px;
+				text-shadow: 0 0 5px #76f4ea;
+			}
+		}
+
+		&-fax {
+			margin-bottom: 22px;
+		}
+	}
+
+	&__map {
+		iframe {
+			border: none;
+		}
+	}
+}
